@@ -12,7 +12,8 @@
 
 ## Process outline
 1. Extract the frame from the movie
-```python
+![Extract the frame](https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/Before_000.png "process1")
+<img src="https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/After_000.png">
 #extract frame at determined point 
 cap.set(cv2.CAP_PROP_POS_FRAMES, num)
 ```
