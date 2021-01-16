@@ -81,3 +81,10 @@ def OCR_read(PIL_data):
         except TypeError:
             pass
 ```
+
+### Result Review
+|  Class  |  Result  | Explanation |
+| ---- | ---- | ---- |
+|  OCR  |  pyocr  | Tesseract |
+|  Translation  |  googletrans  | - |
+| General | openCV, PIL | - |
