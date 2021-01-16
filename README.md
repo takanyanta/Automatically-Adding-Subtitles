@@ -20,7 +20,6 @@
 
 ![Extract the frame](https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/Before_000.png "process1")
 
-```
 2. Extract the area from the frame
 
 ```python
