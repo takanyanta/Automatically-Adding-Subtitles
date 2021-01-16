@@ -12,6 +12,7 @@
 
 ## Process outline
 1. Extract the frame from the movie
+
 ```python
     #extract frame at determined point 
     cap.set(cv2.CAP_PROP_POS_FRAMES, num)
@@ -21,12 +22,15 @@
 
 ```
 2. Extract the area from the frame
+
 ```python
         frame_subtitles = frame[300:frame.shape[0], 100:600]
 ```
+
 ![Extract the frame](https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/add_000.png "process1")
 
 3. For OCR reading, preprocessing frame data
+
 ```python
         frame_subtitles_gray = cv2.cvtColor(frame_subtitles, cv2.COLOR_BGR2GRAY)
         #plt.imshow(frame_subtitles_gray)
@@ -40,7 +44,9 @@
         #plt.show()
         frame_subtitles_binary_reverse_image = Image.fromarray(frame_subtitles_binary_reverse)
 ```
+
 4. OCR and translate them
+
 ```python
 def OCR_read(PIL_data):
     tools = pyocr.get_available_tools()
@@ -60,7 +66,9 @@ def OCR_read(PIL_data):
     
     return txt1, translated.text
 ```
+
 5. return the result of 4. to original frame
+
 ```python
         try:
             en, ja = OCR_read(frame_subtitles_binary_reverse_image)
