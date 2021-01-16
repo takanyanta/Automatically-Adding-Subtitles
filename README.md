@@ -97,7 +97,7 @@ def OCR_read(PIL_data):
 
 ![Extract the frame](https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/After_000.png "process1")
 
-### Result Review
+## Result Review
 
 * Translation Result
 
@@ -121,7 +121,7 @@ I feel it is not so bad.
 |  39  |  so it's grown even bigger.  | だからそれはさらに大きくなりました。 |
 | 42 | T'll look for a good management specialist. a., PIL | 良い管理スペシャリストを探します。a。 |
 
-### Conclusion
+## Conclusion
 * Translation accuracy is not so bad.
 * Computational speed is very slow.(This is the challenges to overcome for commercial use)
 * googletranslate sometimes returns different result with same sentense.(This problem is seems to be solved by using NLP technique, such as "cos similarity" when OCR results is same as the previpous one)
