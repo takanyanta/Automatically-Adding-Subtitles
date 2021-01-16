@@ -100,8 +100,24 @@ def OCR_read(PIL_data):
 ![Extract the frame](https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/After_000.png "process1")
 
 ### Result Review
-|  Class  |  Result  | Explanation |
+
+* Translation Result
+
+
+|  Sec  |  English  | Japanese |
 | ---- | ---- | ---- |
-|  OCR  |  pyocr  | Tesseract |
-|  Translation  |  googletrans  | - |
-| General | openCV, PIL | - |
+|  0  |  -You brat, you don't know anything! -That's right!  | Tesseract |
+|  3  |  If I'm your successor, will I have  | - |
+| 6 | the authority to appoint new CEOs for our subsidiaries? | - |
+|  9  |  That's great.  | Tesseract |
+|  12  |  I always thought that a few of the CEOs are underqualified.  | - |
+| 15 | For instance, those who tend to clash with their employees, PIL | - |
+|  18  |  For instance, those who tend to clash with their employees  | Tesseract |
+|  21  |  or have caused the company great damage due to their own ignorance.  | - |
+| 24 | or have caused the company great damage due to their own ignorance., PIL | - |
+|  27  |  We should fire such CEGs without any hesitation.  | Tesseract |
+|  30  |  all  | - |
+| 33 | Give me some time though., PIL | - |
+|  36  |  My company recently launched an extreme-sports apparel line,  | Tesseract |
+|  39  |  so it's grown even bigger.  | - |
+| 42 | T'll look for a good management specialist. a., PIL | - |
