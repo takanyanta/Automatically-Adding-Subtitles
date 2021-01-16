@@ -24,6 +24,8 @@
 ```python
         frame_subtitles = frame[300:frame.shape[0], 100:600]
 ```
+![Extract the frame](https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/add_000.png "process1")
+
 3. For OCR reading, preprocessing frame data
 ```python
         frame_subtitles_gray = cv2.cvtColor(frame_subtitles, cv2.COLOR_BGR2GRAY)
