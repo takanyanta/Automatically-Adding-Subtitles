@@ -30,8 +30,6 @@
 
 3. For OCR reading, preprocessing frame data
 
-* Results of translation
-
 ```python
         frame_subtitles_gray = cv2.cvtColor(frame_subtitles, cv2.COLOR_BGR2GRAY)
         #plt.imshow(frame_subtitles_gray)
