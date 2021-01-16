@@ -66,7 +66,7 @@ def OCR_read(PIL_data):
     return txt1, translated.text
 ```
 
-5. return the result of 4. to original frame
+5. Return the result of 4. to original frame
 
 ```python
         try:
