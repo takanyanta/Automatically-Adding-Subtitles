@@ -123,5 +123,5 @@ I feel it is not so bad.
 
 ### Conclusion
 * Translation accuracy is not so bad.
-* Computational speed is very slow.(This is the challenges to overcome for commercail use)
+* Computational speed is very slow.(This is the challenges to overcome for commercial use)
 * googletranslate sometimes returns different result with same sentense.(This problem is seems to be solved by using NLP technique, such as "cos similarity" when OCR results is same as the previpous one)
