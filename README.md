@@ -15,7 +15,7 @@
 ```python
     #extract frame at determined point 
     cap.set(cv2.CAP_PROP_POS_FRAMES, num)
-```python
+```
 
 ![Extract the frame](https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/Before_000.png "process1")
 
