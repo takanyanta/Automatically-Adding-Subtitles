@@ -106,18 +106,18 @@ def OCR_read(PIL_data):
 
 |  Sec  |  English  | Japanese |
 | ---- | ---- | ---- |
-|  0  |  -You brat, you don't know anything! -That's right!  | Tesseract |
-|  3  |  If I'm your successor, will I have  | - |
-| 6 | the authority to appoint new CEOs for our subsidiaries? | - |
-|  9  |  That's great.  | Tesseract |
-|  12  |  I always thought that a few of the CEOs are underqualified.  | - |
-| 15 | For instance, those who tend to clash with their employees, PIL | - |
-|  18  |  For instance, those who tend to clash with their employees  | Tesseract |
-|  21  |  or have caused the company great damage due to their own ignorance.  | - |
-| 24 | or have caused the company great damage due to their own ignorance., PIL | - |
-|  27  |  We should fire such CEGs without any hesitation.  | Tesseract |
-|  30  |  all  | - |
-| 33 | Give me some time though., PIL | - |
-|  36  |  My company recently launched an extreme-sports apparel line,  | Tesseract |
-|  39  |  so it's grown even bigger.  | - |
-| 42 | T'll look for a good management specialist. a., PIL | - |
+|  0  |  -You brat, you don't know anything! -That's right!  | -ガキ、何も知らない！-そのとおり！ |
+|  3  |  If I'm your successor, will I have  | 私があなたの後継者なら、 |
+| 6 | the authority to appoint new CEOs for our subsidiaries? | 子会社の新しいCEOを任命する権限はありますか？ |
+|  9  |  That's great.  | それは素晴らしいことです。 |
+|  12  |  I always thought that a few of the CEOs are underqualified.  | 私はいつも、CEOの何人かは資格が不足していると思っていました。 |
+| 15 | For instance, those who tend to clash with their employees, PIL | たとえば、従業員と衝突する傾向がある人 |
+|  18  |  For instance, those who tend to clash with their employees  | たとえば、従業員と衝突する傾向がある人 |
+|  21  |  or have caused the company great damage due to their own ignorance.  | または彼ら自身の無知のために会社に大きな損害を与えました。 |
+| 24 | or have caused the company great damage due to their own ignorance., PIL | または彼ら自身の無知のために会社に大きな損害を与えました。 |
+|  27  |  We should fire such CEGs without any hesitation.  | そのようなCEGをためらうことなく発射する必要があります。 |
+|  30  |  all  | すべて |
+| 33 | Give me some time though., PIL | でも少し時間をください。 |
+|  36  |  My company recently launched an extreme-sports apparel line,  | 私の会社は最近、エクストリームスポーツのアパレルラインを立ち上げました。 |
+|  39  |  so it's grown even bigger.  | だからそれはさらに大きくなりました。 |
+| 42 | T'll look for a good management specialist. a., PIL | 良い管理スペシャリストを探します。a。 |
