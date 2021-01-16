@@ -95,6 +95,8 @@ def OCR_read(PIL_data):
             pass
 ```
 
+![Extract the frame](https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/After_000.png "process1")
+
 ### Result Review
 |  Class  |  Result  | Explanation |
 | ---- | ---- | ---- |
