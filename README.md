@@ -102,7 +102,7 @@ def OCR_read(PIL_data):
 ### Result Review
 
 * Translation Result
- * I feel it is not so bad.
+     * I feel it is not so bad.
 
 |  Sec  |  English  | Japanese |
 | ---- | ---- | ---- |
