@@ -3,7 +3,7 @@
 ## Purpose for coding
 * To see foreign movie with English(or other language except Japanese) subtitles.
 
-## Used tequnique
+## Used technique
 |  Used Technique  |  Used Libraries  | Used Tools |
 | ---- | ---- | ---- |
 |  OCR  |  pyocr  | Tesseract |
@@ -100,8 +100,6 @@ def OCR_read(PIL_data):
 ## Result Review
 
 * Translation Result
-
-I feel it is not so bad.
 
 |  Sec  |  English  | Japanese |
 | ---- | ---- | ---- |
