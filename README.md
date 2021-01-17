@@ -11,7 +11,7 @@
 | General | openCV, PIL | - |
 
 ## Process outline
-### Extract the frame from the movie
+### 1. Extract the frame from the movie
 
 ```python
     #extract frame at determined point 
@@ -20,7 +20,7 @@
 
 ![Extract the frame](https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/Before_000.png "process1")
 
-### Extract the area from the frame
+### 2. Extract the area from the frame
 
 ```python
         frame_subtitles = frame[300:frame.shape[0], 100:600]
@@ -28,7 +28,7 @@
 
 ![Extract the frame](https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/add_000.png "process1")
 
-### For OCR reading, preprocessing frame data
+### 3. For OCR reading, preprocessing frame data
 
 ```python
         frame_subtitles_gray = cv2.cvtColor(frame_subtitles, cv2.COLOR_BGR2GRAY)
@@ -44,7 +44,7 @@
         frame_subtitles_binary_reverse_image = Image.fromarray(frame_subtitles_binary_reverse)
 ```
 
-### OCR and translate them
+### 4. OCR and translate them
 ```python
 def OCR_read(PIL_data):
     tools = pyocr.get_available_tools()
@@ -64,7 +64,7 @@ def OCR_read(PIL_data):
     
     return txt1, translated.text
 ```
-### Return the result of 4. to original frame
+### 5. Return the result of 4. to original frame
 
 ```python
         try:
