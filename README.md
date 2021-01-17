@@ -11,7 +11,7 @@
 | General | openCV, PIL | - |
 
 ## Process outline
-* 1. Extract the frame from the movie
+### Extract the frame from the movie
 
 ```python
     #extract frame at determined point 
@@ -20,7 +20,7 @@
 
 ![Extract the frame](https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/Before_000.png "process1")
 
-* 2. Extract the area from the frame
+### Extract the area from the frame
 
 ```python
         frame_subtitles = frame[300:frame.shape[0], 100:600]
@@ -28,7 +28,7 @@
 
 ![Extract the frame](https://github.com/takanyanta/Automatically-Adding-Subtitles/blob/main/ResultPic/add_000.png "process1")
 
-* 3. For OCR reading, preprocessing frame data
+### For OCR reading, preprocessing frame data
 
 ```python
         frame_subtitles_gray = cv2.cvtColor(frame_subtitles, cv2.COLOR_BGR2GRAY)
@@ -44,7 +44,7 @@
         frame_subtitles_binary_reverse_image = Image.fromarray(frame_subtitles_binary_reverse)
 ```
 
-* 4. OCR and translate them
+### OCR and translate them
 ```python
 def OCR_read(PIL_data):
     tools = pyocr.get_available_tools()
@@ -64,7 +64,7 @@ def OCR_read(PIL_data):
     
     return txt1, translated.text
 ```
-* 5. Return the result of 4. to original frame
+### Return the result of 4. to original frame
 
 ```python
         try:
@@ -118,6 +118,6 @@ def OCR_read(PIL_data):
 | 42 | T'll look for a good management specialist. a., PIL | 良い管理スペシャリストを探します。a。 |
 
 ## Conclusion
-* Translation accuracy is not so bad.
-* Computational speed is very slow.(This is the challenges to overcome for commercial use)
+* Translation accuracy seeams to be  not so bad.
+* Computational speed is very slow.(This is the challenges to be overcomeed  for commercial use)
 * googletranslate sometimes returns different result with same sentense.(This problem is seems to be solved by using NLP technique, such as "cos similarity" when OCR results is same as the previpous one)
