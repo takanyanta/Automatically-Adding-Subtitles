@@ -97,7 +97,7 @@ def OCR_read(PIL_data):
 
 ## Result Review
 
- Translation Result
+### Translation Result
 
 |  Sec  |  English  | Japanese |
 | ---- | ---- | ---- |
