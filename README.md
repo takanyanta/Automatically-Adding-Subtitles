@@ -1,4 +1,4 @@
-# Automatically-Adding-Subtitles
+# Automatically-Adding-Subtitles on Movies
 
 ## Purpose for coding
 * To see foreign movie with English(or other language except Japanese) subtitles.
